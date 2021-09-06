@@ -22,10 +22,10 @@ Add me to your group and play music freely!**
                         "🔱 𝗢𝗪𝗡𝗘𝗥 🔱", url="https://t.me/Harsh_722")
                   ],[
                     InlineKeyboardButton(
-                        "⚜ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ⚜", url="https://t.me/ironheartsupport722"
+                        "🎧 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 ", url="https://t.me/IronHeart_Assistant_722"
                     ),
                     InlineKeyboardButton(
-                        "🎧 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 🎧", url="https://t.me/IronHeart_Assistant_722"
+                        " 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ✅ ", url="https://telegra.ph/IronHeart-Music-09-06"
                     )
                 ],[ 
                     InlineKeyboardButton(
