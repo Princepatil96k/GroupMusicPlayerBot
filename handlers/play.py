@@ -67,7 +67,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     Image.alpha_composite(image5, image6).save("temp.png")
     img = Image.open("temp.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("etc/font.otf", 32)
+    font = ImageFont.truetype("etc/font.otf", 30)
     draw.text((190, 550), f"Title: {title}", (51, 153, 255), font=font)
     draw.text(
         (190, 590), f"Duration: {duration}", (255, 255, 255), font=font
@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐯𝐢𝐚 𝐈𝐫𝐨𝐧𝐇𝐞𝐚𝐫𝐭...**")
+    lel = await message.reply("🔄 **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/aad17b104660cf504c50e.png"
+        thumb_name = "https://telegra.ph/file/2a9d352448be0dcb7b1c6.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -290,7 +290,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**𝗦𝗢𝗡𝗚:** {}\n**𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:** {} ᴍɪɴ\n**+ ᴀᴅᴅᴇᴅ ʙʏ:** {}\n\n**▶️ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴀᴛ `{}`...**".format(
+        caption="**𝗦𝗢𝗡𝗚:** {}\n**𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡:** {} ᴍɪɴ\n**𝗔𝗗𝗗𝗘𝗗 𝗕𝗬:** {}\n\n**▶️ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴀᴛ `{}`...**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
