@@ -7,11 +7,11 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAADBQADrgIAAm9uoVebl9LHAlrXCgI")
+    await message.reply_photo("https://telegra.ph/file/112048220d9c6db5b752d.jpg")
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎵
 
-I can play music in your group's voice call. My Owner Is [𝗛𝗔𝗥𝗦𝗛](https://t.me/Harsh_722).
+I can play music in your group's voice call. And Developed By [𝗛𝗔𝗥𝗦𝗛](https://t.me/Harsh_722).
 
 Add me to your group and play music freely!**
         """,
@@ -25,11 +25,11 @@ Add me to your group and play music freely!**
                         "🎧 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 ", url="https://t.me/IronHeart_Assistant_722"
                     ),
                     InlineKeyboardButton(
-                        " 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦 ✅ ", url="https://telegra.ph/IronHeart-Music-09-06"
+                        "🛡 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🛡", url="https://t.me/ironheartsupport722"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "𝗔𝗗𝗗 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣  ➡️", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
+                        "𝗔𝗗𝗗 𝗧𝗢 𝗚𝗥𝗢𝗨𝗣  🛒", url="https://t.me/Harsh7_Musicbot?startgroup=true"
                     )]
             ]
         ),
