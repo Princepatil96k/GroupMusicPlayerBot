@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠...**")
+    lel = await message.reply("🔄 **connecting to server**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**ironHeart Music Assistant joined this group for play music 🎵**")
+                        message.chat.id, "**i joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -138,12 +138,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ 𝐕𝐢𝐝𝐞𝐨𝐬 𝐥𝐨𝐧𝐠𝐞𝐫 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 𝐚𝐫𝐞𝐧'𝐭 𝐚𝐥𝐥𝐨𝐰𝐞𝐝 𝐭𝐨 𝐩𝐥𝐚𝐲..!"
+                f"🙄🙄𝐕𝐢𝐝𝐞𝐨𝐬 𝐥𝐨𝐧𝐠𝐞𝐫 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞𝐬 𝐚𝐫𝐞𝐧'𝐭 𝐚𝐥𝐥𝐨𝐰𝐞𝐝 𝐭𝐨 𝐩𝐥𝐚𝐲..!"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9e830ea9f953746408729.png"
+        thumb_name = "https://telegra.ph/file/557996394db2a9781f2b2.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/ironheartsupport722")
+                        text="⚜ Aǫᴜᴀᴍᴀɴ ⚜",
+                        url="https://t.me/AQUAMAN_XD")
                    
                 ]
             ]
@@ -190,26 +190,26 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎬",
+                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 📥",
-                            url=f"{durl}")
+                            text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
+                            url=f"https://t.me/AQUAMAN_XD")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/9e830ea9f953746408729.png"
+            thumb_name = "https://telegra.ph/file/557996394db2a9781f2b2.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎬",
-                                url=f"https://youtube.com")
+                                text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
+                                url=f"https://t.me/AQUAMAN_XD")
 
                         ]
                     ]
@@ -226,7 +226,7 @@ async def play(_, message: Message):
         await lel.edit("🔎 **𝐅𝐢𝐧𝐝𝐢𝐧𝐠 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("♫ **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐬𝐨𝐧𝐠 𝐯𝐢𝐚 𝐈𝐫𝐨𝐧𝐇𝐞𝐚𝐫𝐭..!**")
+        await lel.edit("♫ **CONNECTING TO THE SERVER..!**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -258,11 +258,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎬",
+                            text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 📥",
-                            url=f"{durl}")
+                            text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
+                            url=f"https://t.me/AQUAMAN_XD")
 
                     ]
                 ]
