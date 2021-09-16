@@ -19,14 +19,14 @@ Add me to your group and play music freely😆!**
             [
                 [
                     InlineKeyboardButton(
-                        "Oᴡɴᴇʀ", url="https://t.me/AQUAMAN_XD")
+                        "𝐎𝐖𝐍𝐄𝐑", url="https://t.me/PRIN_SECC")
                   ],[
                     InlineKeyboardButton(
-                        "🛡 SUPPORT GROUP 🛡", url="https://t.me/AQUAMAN_XD_WORLD"
+                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Ak_Dukhi_Aatma"
                     ),
                 ],[ 
                     InlineKeyboardButton(
-                        "GROUP ME LEJAO 😆", url="https://t.me/AQUAMAN_MUSIC_BOT?startgroup=true"
+                        "GROUP ME LEJAO 😆", url="https://t.me/PRINSECC_VC_BOT?startgroup=true"
                     )]
             ]
         ),
@@ -40,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🛡 SUPPORT 🛡", url="https://t.me/AQUAMAN_XD_WORLD")
+                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/Ak_Dukhi_Aatma")
                 ]
             ]
         )
