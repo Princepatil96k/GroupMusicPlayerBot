@@ -11,18 +11,18 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm 『PRINCE PATIL MUSIC』 Bᴏᴛ |🎵
 
-I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [『🔰⚡𝙿𝚁𝙸NICE PATIL⚡🔰✰』](https://t.me/Princepatil96k)
+I can play ꬺᶙȿᶖɕ  in your group's voice CHAT Developed by [『🔰⚡PRINICE PATIL⚡🔰✰』](https://t.me/Princepatil96k)
 
-Add me to your group and play music freely @STUDY_FLOWER_QUIZ_GROUOP 😆!**
+Add me to your group and play music freely Join👉 @STUDY_FLOWER_QUIZ_GROUP 😎!**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐎𝐖𝐍𝐄𝐑", url="https://t.me/Princepatil96k")
+                        "PRINCE MUSIC CREATER", url="https://t.me/Princepatil96k")
                   ],[
                     InlineKeyboardButton(
-                        "𝐒𝐔𝐏𝐏𝐎𝐑𝐓", url="https://t.me/PrinceMusicWorld1"
+                        "PRINCE MUSIC SUPPORT", url="https://t.me/PrinceMusicWorld1"
                     ),
                 ],[ 
                     InlineKeyboardButton(
