@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/557996394db2a9781f2b2.jpg"
+        thumb_name = "https://telegra.ph/file/9623c1b38ce338968f8ac.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="⚜ Aǫᴜᴀᴍᴀɴ ⚜",
-                        url="https://t.me/AQUAMAN_XD")
+                        text="『𝙿𝚁𝙸𝙽_𝚂𝙴𝙲𝙲✰』⚜",
+                        url="https://t.me/PRIN_SECC")
                    
                 ]
             ]
@@ -193,22 +193,22 @@ async def play(_, message: Message):
                             text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
-                            url=f"https://t.me/AQUAMAN_XD")
+                            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
+                            url=f"https://t.me/Ak_Dukhi_Aatma")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/557996394db2a9781f2b2.jpg"
+            thumb_name = "https://telegra.ph/file/9623c1b38ce338968f8ac.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
+                                text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
                                 url=f"https://t.me/AQUAMAN_XD")
 
                         ]
@@ -261,8 +261,8 @@ async def play(_, message: Message):
                             text="𝐘𝐨𝐮𝐭𝐮𝐛𝐞 🎥",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𓄂I AM᭄ AǫᴜᴀMᴀɴ ࿐",
-                            url=f"https://t.me/AQUAMAN_XD")
+                            text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
+                            url=f"https://t.me/Ak_Dukhi_Aatma")
 
                     ]
                 ]
