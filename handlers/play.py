@@ -143,7 +143,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/9623c1b38ce338968f8ac.jpg"
+        thumb_name = "https://telegra.ph/file/9c71bd26b7772df92684a.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="『𝙿𝚁𝙸𝙽_𝚂𝙴𝙲𝙲✰』⚜",
-                        url="https://t.me/PRIN_SECC")
+                        text="『PRINCE PATIL✰』⚜",
+                        url="https://t.me/Princepatil96k")
                    
                 ]
             ]
@@ -194,7 +194,7 @@ async def play(_, message: Message):
                             url=f"{url}"),
                         InlineKeyboardButton(
                             text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/Ak_Dukhi_Aatma")
+                            url=f"https://t.me/Princepatil96k")
 
                     ]
                 ]
@@ -209,7 +209,7 @@ async def play(_, message: Message):
                         [
                             InlineKeyboardButton(
                                 text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                                url=f"https://t.me/AQUAMAN_XD")
+                                url=f"https://t.me/Princepatil96k")
 
                         ]
                     ]
@@ -262,7 +262,7 @@ async def play(_, message: Message):
                             url=f"{url}"),
                         InlineKeyboardButton(
                             text="𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
-                            url=f"https://t.me/Ak_Dukhi_Aatma")
+                            url=f"https://t.me/PrinceMusicWorld1")
 
                     ]
                 ]
